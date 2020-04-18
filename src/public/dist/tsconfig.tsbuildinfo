@@ -1,0 +1,789 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "b42eddba1a53c9d27279cfe7fc0416c10a81489826ad47e39013b9d340fc0cc7",
+        "signature": "b42eddba1a53c9d27279cfe7fc0416c10a81489826ad47e39013b9d340fc0cc7"
+      },
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96",
+        "signature": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96"
+      },
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1",
+        "signature": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1"
+      },
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "f2039e0dbc31f69183f6377b368c033802dfdcf77e5fd214def06c1fd7b225ed",
+        "signature": "f2039e0dbc31f69183f6377b368c033802dfdcf77e5fd214def06c1fd7b225ed"
+      },
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.dom.iterable.d.ts": {
+        "version": "8329c3401aa8708426c7760f14219170f69a2cb77e4519758cec6f5027270faf",
+        "signature": "8329c3401aa8708426c7760f14219170f69a2cb77e4519758cec6f5027270faf"
+      },
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b",
+        "signature": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b"
+      },
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9",
+        "signature": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9"
+      },
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "734ddc145e147fbcd55f07d034f50ccff1086f5a880107665ec326fb368876f6",
+        "signature": "734ddc145e147fbcd55f07d034f50ccff1086f5a880107665ec326fb368876f6"
+      },
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "4a0862a21f4700de873db3b916f70e41570e2f558da77d2087c9490f5a0615d8",
+        "signature": "4a0862a21f4700de873db3b916f70e41570e2f558da77d2087c9490f5a0615d8"
+      },
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "765e0e9c9d74cf4d031ca8b0bdb269a853e7d81eda6354c8510218d03db12122",
+        "signature": "765e0e9c9d74cf4d031ca8b0bdb269a853e7d81eda6354c8510218d03db12122"
+      },
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "285958e7699f1babd76d595830207f18d719662a0c30fac7baca7df7162a9210",
+        "signature": "285958e7699f1babd76d595830207f18d719662a0c30fac7baca7df7162a9210"
+      },
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "d4deaafbb18680e3143e8b471acd650ed6f72a408a33137f0a0dd104fbe7f8ca",
+        "signature": "d4deaafbb18680e3143e8b471acd650ed6f72a408a33137f0a0dd104fbe7f8ca"
+      },
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe",
+        "signature": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe"
+      },
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976",
+        "signature": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976"
+      },
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230",
+        "signature": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230"
+      },
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303",
+        "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
+      },
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0",
+        "signature": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0"
+      },
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2016.full.d.ts": {
+        "version": "a1205f8b74ba57896ae4eb9ff19a5ffc7f210352b0b535abcd36d6b06225a3ac",
+        "signature": "a1205f8b74ba57896ae4eb9ff19a5ffc7f210352b0b535abcd36d6b06225a3ac"
+      },
+      "../build/interface/outline.i.d.ts": {
+        "version": "9cce0ba408cc8ccadf4b41e647ac78b727c089e7b3ee07189bb72288f41c0587",
+        "signature": "9cce0ba408cc8ccadf4b41e647ac78b727c089e7b3ee07189bb72288f41c0587"
+      },
+      "../build/enum/xtype.enum.d.ts": {
+        "version": "19fcd9a706183de8d0fb7b57d5e623615766bdf4276cf3d80f7dc4fec39d03dc",
+        "signature": "19fcd9a706183de8d0fb7b57d5e623615766bdf4276cf3d80f7dc4fec39d03dc"
+      },
+      "../build/enum/ytype.enum.d.ts": {
+        "version": "0dce56b8fd470b88cec644e0289449cf356bcf89666e1a87420e53ae79b35577",
+        "signature": "0dce56b8fd470b88cec644e0289449cf356bcf89666e1a87420e53ae79b35577"
+      },
+      "../build/interface/location.i.d.ts": {
+        "version": "33b34d21225f59a83a66215cf33d15ff4ab8400fbddee9158585211f910e7ca3",
+        "signature": "33b34d21225f59a83a66215cf33d15ff4ab8400fbddee9158585211f910e7ca3"
+      },
+      "../build/interface/jsonpack.i.d.ts": {
+        "version": "513fc7f9a7ad2431371859a49d62c97ec14f40784901263f3e430419df360795",
+        "signature": "513fc7f9a7ad2431371859a49d62c97ec14f40784901263f3e430419df360795"
+      },
+      "../build/interface/canvascontext.i.d.ts": {
+        "version": "b58f0cbbfe525d7459ee1759f99b01129085265bfcb2472cb74f83ade84f77ea",
+        "signature": "b58f0cbbfe525d7459ee1759f99b01129085265bfcb2472cb74f83ade84f77ea"
+      },
+      "../src/interface/outline.i.ts": {
+        "version": "1983b7637b09a5b72455d3db8c8d7beac8ce1020c5843cbed3cc8e56c116e80c",
+        "signature": "9cce0ba408cc8ccadf4b41e647ac78b727c089e7b3ee07189bb72288f41c0587"
+      },
+      "../src/enum/xtype.enum.ts": {
+        "version": "a81f2003e281ce2c69b26fb1972df2b851238ca2b1e4d120d79f2d3ac12b2b2f",
+        "signature": "19fcd9a706183de8d0fb7b57d5e623615766bdf4276cf3d80f7dc4fec39d03dc"
+      },
+      "../src/enum/ytype.enum.ts": {
+        "version": "02d8f02847eccd638e1955f0bd1868089e4a47bb19fbebbc8ed6b09ee83e2c92",
+        "signature": "0dce56b8fd470b88cec644e0289449cf356bcf89666e1a87420e53ae79b35577"
+      },
+      "../src/interface/location.i.ts": {
+        "version": "a34289184e08ec1471d13b90b1d36eeb6535280fbcc7d72997b97dd8369eb0b3",
+        "signature": "33b34d21225f59a83a66215cf33d15ff4ab8400fbddee9158585211f910e7ca3"
+      },
+      "../src/interface/jsonpack.i.ts": {
+        "version": "58ed7d37e8e083d8b862be5836edc1577179ca76b51201783de1d46640afb86b",
+        "signature": "513fc7f9a7ad2431371859a49d62c97ec14f40784901263f3e430419df360795"
+      },
+      "../src/interface/canvascontext.i.ts": {
+        "version": "a884d7525aecb3608036d1524c776e37056c816daea7dbbb06a9dd82977b200a",
+        "signature": "b58f0cbbfe525d7459ee1759f99b01129085265bfcb2472cb74f83ade84f77ea"
+      },
+      "../src/interface/conv.i.ts": {
+        "version": "c503ad3a2369ac67d1ff92a7d8c1fc72694a8f8cf6b5dc0dbd5fdac5ab78b604",
+        "signature": "b1e1263d49fb5ece561272bd3e27080b800a0669e2e05815fc46c3929c6baaf5"
+      },
+      "../src/impl/util/conv.impl.ts": {
+        "version": "445e730eb0b4708cd37e2c22f7532a035325dfc489b193d2df284644dad4e8b6",
+        "signature": "6eb94072e69114f190e7b9536cc01f1e0b6d676c0c6e910e137c0b57c3f14b6c"
+      },
+      "../src/impl/laboratory.impl.ts": {
+        "version": "8aa8ef487201044cd5a6ad47dee8aa7ced818757c102aa01d2a8802c94bec40c",
+        "signature": "8ce7502ade7aaad12b29af00985c39201b67642cf525112514d400c138625da5"
+      },
+      "../src/impl/util/canvasdraw.ts": {
+        "version": "fcc8a3f19975a7efca34edcbcb6057b16a02728527e80e0218d10b928ed14300",
+        "signature": "fa84aa9cc166aae7e224bf020b1c6fe642bbb7ee2eecf0b36ed55b3f342c1791"
+      },
+      "../src/impl/part.impl.ts": {
+        "version": "3e4f06536e8940e32737c140e579f39448b530d85d811f597cec1c44a508f6da",
+        "signature": "7079a467b33a015f174d2b0bb24470aec7696aeb5238dccfd6f7fe94252a0151"
+      },
+      "../src/impl/util/pipeline.ts": {
+        "version": "9b43fca4447ccecebce06967e8db2d845af4074ec1681b04a7fdc3e113f617b2",
+        "signature": "ad3656358ac60d3424987bdb510c69515361bdc2a56af915d8c91674e52c5c4b"
+      },
+      "../src/abstract/widget.ts": {
+        "version": "18b3407b441ed0dabf115582fd1b2a55e73abbd600d64b4c46e85ad4af664bce",
+        "signature": "3c578c9b0383e013d0a798321fc8ec64f0e3025dda10e3f239832630dece440f"
+      },
+      "../src/interface/numpack.ts": {
+        "version": "5e4a85233323eb8c987d10714f9c82388f4e7939eb45080c09e7964f5470f7da",
+        "signature": "b2270f28f6f5033f9b5e85e1ebf39a34623f2fa95855f4c60b89b1e47cb5127d"
+      },
+      "../src/interface/wordprovider.ts": {
+        "version": "0857a72a40d30e89451f35ed794359bc550b0d34910f1c2cac314af9b773e627",
+        "signature": "d697548b6bf6f3421ffd947359a17cb5a4aa4b465b0c61b24fa65684cd6c6a6b"
+      },
+      "../src/impl/factory/numbernodefactory.ts": {
+        "version": "e259366903e54873396fb8d6befa5265fd7eb1bc2dc09a0eff1e2c8a4323fe9d",
+        "signature": "143255ffd0e9ce9b4e409e7dce93bd51beabee9c0f83b987e8c89e231fa7ba5b"
+      },
+      "../src/impl/util/numbernode.ts": {
+        "version": "535b9ed14672805311b7d1efa38244e412e728a1624618c69d1c0ada91069a41",
+        "signature": "0576db79b84f6b50ab33856f4308cf9f071165ceb4a620169821b95f1bfae9f8"
+      },
+      "../src/impl/digitalmeter.impl.ts": {
+        "version": "d68d8f3b172d248557a7c8944753ed9144a1edaaf28b53f769598eb2c04b8c72",
+        "signature": "07ce06fa58d4aac54549674fbcfbc50e36ef8cfa1bee47a60540d4f4f1aa0b89"
+      },
+      "../src/impl/dashboard.impl.ts": {
+        "version": "bd1ae5d7d1a356950bbc146dcd1d2e220ae7345ad978a0a8d8b276e5f8375d90",
+        "signature": "d77ca7e0e59492dd8fd1bf1f052892a645079db6efd40c46f69eba4f85fcf364"
+      },
+      "../src/impl/util/vtcrouter.ts": {
+        "version": "f1f1be1c88a28ec08e73a6a3cd9b81314451f8b6d984d5824eed42b347d6f1b5",
+        "signature": "3d94e815e0afa8bf4cfac6916913f04f138e4be48b68afefefbf3118ed79c04c"
+      },
+      "../src/impl/chart.impl.ts": {
+        "version": "e33e03041ea5c9a75d363b7e248eea8d8cd95a7697182029127f43408f117d0e",
+        "signature": "19286fa26f2e1608de5273789d9200c5844c9d79082bd93bbb0171468f74bb0b"
+      },
+      "../src/impl/digitaldial.lmpl.ts": {
+        "version": "6400c712b0d00ac620e7b92853207eca80b6a52463700d90180c7492ef0ad3e8",
+        "signature": "fd44b08c08fe58d1a1ee4c0050a13bd03f6f211eab3d5b24dfc1570e379f42cb"
+      },
+      "../src/impl/factory/componentfactory.ts": {
+        "version": "bc2123ce20adfade2c7a2d679844a7523b11cfbda820c64c1ca8a2e1c22a5364",
+        "signature": "aad9870daa09780daa29ffd03b3339e60646b27ccb2a7e98258c96087ceecdce"
+      },
+      "../src/index.ts": {
+        "version": "bf138359b6b6b182ded01135b6e2c326d0064ae2dc3fbaebf34318e205c5ac26",
+        "signature": "be43091a1bf76b66466cffae14497a715d20de6b592f6396b4d73497f817aebe"
+      },
+      "../src/impl/util/list.impl.ts": {
+        "version": "b6f26fa2b970d52416123bb14dcc800f4f3be59ec0c3e28af3b0a65367029c6e",
+        "signature": "8305f5139a704428f50137afd204a7a4570e2bc80ea8c5f950645a72ee6b9174"
+      },
+      "../src/impl/util/findtool.impl.ts": {
+        "version": "960f47e6788b37a7191b5ea2f1328114a227ad7317919d29d4ff0f52771f6d0d",
+        "signature": "303fb77164860f60c2eae7d47c78bdb015098f8747656e8ec7e673771d616f73"
+      },
+      "../src/abstract/component.ts": {
+        "version": "6a8de4456e817f7e87f93060684e3548d30dfe393d16bd509a1674e083de00cb",
+        "signature": "b20b9b256c471947f349b23dbd5f7ef94a193fb717df135b40e368e00dd08dc4"
+      },
+      "../build/impl/util/list.impl.d.ts": {
+        "version": "8305f5139a704428f50137afd204a7a4570e2bc80ea8c5f950645a72ee6b9174",
+        "signature": "8305f5139a704428f50137afd204a7a4570e2bc80ea8c5f950645a72ee6b9174"
+      },
+      "../build/interface/numpack.d.ts": {
+        "version": "b2270f28f6f5033f9b5e85e1ebf39a34623f2fa95855f4c60b89b1e47cb5127d",
+        "signature": "b2270f28f6f5033f9b5e85e1ebf39a34623f2fa95855f4c60b89b1e47cb5127d"
+      },
+      "../build/interface/wordprovider.d.ts": {
+        "version": "d697548b6bf6f3421ffd947359a17cb5a4aa4b465b0c61b24fa65684cd6c6a6b",
+        "signature": "d697548b6bf6f3421ffd947359a17cb5a4aa4b465b0c61b24fa65684cd6c6a6b"
+      },
+      "../build/impl/util/numbernode.d.ts": {
+        "version": "0576db79b84f6b50ab33856f4308cf9f071165ceb4a620169821b95f1bfae9f8",
+        "signature": "0576db79b84f6b50ab33856f4308cf9f071165ceb4a620169821b95f1bfae9f8"
+      },
+      "../build/abstract/component.d.ts": {
+        "version": "b20b9b256c471947f349b23dbd5f7ef94a193fb717df135b40e368e00dd08dc4",
+        "signature": "b20b9b256c471947f349b23dbd5f7ef94a193fb717df135b40e368e00dd08dc4"
+      },
+      "../build/interface/conv.i.d.ts": {
+        "version": "b1e1263d49fb5ece561272bd3e27080b800a0669e2e05815fc46c3929c6baaf5",
+        "signature": "b1e1263d49fb5ece561272bd3e27080b800a0669e2e05815fc46c3929c6baaf5"
+      },
+      "../build/impl/util/conv.impl.d.ts": {
+        "version": "6eb94072e69114f190e7b9536cc01f1e0b6d676c0c6e910e137c0b57c3f14b6c",
+        "signature": "6eb94072e69114f190e7b9536cc01f1e0b6d676c0c6e910e137c0b57c3f14b6c"
+      },
+      "../build/impl/laboratory.impl.d.ts": {
+        "version": "8ce7502ade7aaad12b29af00985c39201b67642cf525112514d400c138625da5",
+        "signature": "8ce7502ade7aaad12b29af00985c39201b67642cf525112514d400c138625da5"
+      },
+      "../build/impl/util/pipeline.d.ts": {
+        "version": "ad3656358ac60d3424987bdb510c69515361bdc2a56af915d8c91674e52c5c4b",
+        "signature": "ad3656358ac60d3424987bdb510c69515361bdc2a56af915d8c91674e52c5c4b"
+      },
+      "../build/abstract/widget.d.ts": {
+        "version": "3c578c9b0383e013d0a798321fc8ec64f0e3025dda10e3f239832630dece440f",
+        "signature": "3c578c9b0383e013d0a798321fc8ec64f0e3025dda10e3f239832630dece440f"
+      },
+      "../build/impl/dashboard.impl.d.ts": {
+        "version": "d77ca7e0e59492dd8fd1bf1f052892a645079db6efd40c46f69eba4f85fcf364",
+        "signature": "d77ca7e0e59492dd8fd1bf1f052892a645079db6efd40c46f69eba4f85fcf364"
+      },
+      "../build/impl/util/vtcrouter.d.ts": {
+        "version": "3d94e815e0afa8bf4cfac6916913f04f138e4be48b68afefefbf3118ed79c04c",
+        "signature": "3d94e815e0afa8bf4cfac6916913f04f138e4be48b68afefefbf3118ed79c04c"
+      },
+      "../build/index.d.ts": {
+        "version": "be43091a1bf76b66466cffae14497a715d20de6b592f6396b4d73497f817aebe",
+        "signature": "be43091a1bf76b66466cffae14497a715d20de6b592f6396b4d73497f817aebe"
+      },
+      "../build/impl/chart.impl.d.ts": {
+        "version": "19286fa26f2e1608de5273789d9200c5844c9d79082bd93bbb0171468f74bb0b",
+        "signature": "19286fa26f2e1608de5273789d9200c5844c9d79082bd93bbb0171468f74bb0b"
+      },
+      "../build/impl/digitaldial.lmpl.d.ts": {
+        "version": "fd44b08c08fe58d1a1ee4c0050a13bd03f6f211eab3d5b24dfc1570e379f42cb",
+        "signature": "fd44b08c08fe58d1a1ee4c0050a13bd03f6f211eab3d5b24dfc1570e379f42cb"
+      },
+      "../build/impl/digitalmeter.impl.d.ts": {
+        "version": "7f529f764cd1e9c67fde117f38723cacd51c7a50533acd8e87c8dc89a684a39b",
+        "signature": "7f529f764cd1e9c67fde117f38723cacd51c7a50533acd8e87c8dc89a684a39b"
+      },
+      "../build/impl/part.impl.d.ts": {
+        "version": "7079a467b33a015f174d2b0bb24470aec7696aeb5238dccfd6f7fe94252a0151",
+        "signature": "7079a467b33a015f174d2b0bb24470aec7696aeb5238dccfd6f7fe94252a0151"
+      },
+      "../build/impl/factory/componentfactory.d.ts": {
+        "version": "c406bee894ad57d7f7e703622f9741c37ed1221d6ddfcea66c9991bb69a144e8",
+        "signature": "c406bee894ad57d7f7e703622f9741c37ed1221d6ddfcea66c9991bb69a144e8"
+      },
+      "../build/impl/factory/numbernodefactory.d.ts": {
+        "version": "143255ffd0e9ce9b4e409e7dce93bd51beabee9c0f83b987e8c89e231fa7ba5b",
+        "signature": "143255ffd0e9ce9b4e409e7dce93bd51beabee9c0f83b987e8c89e231fa7ba5b"
+      },
+      "../build/impl/util/canvasdraw.d.ts": {
+        "version": "f1baf1c5ac39ccf8d42a2974c6e30e1f62581678bd0f15bef1e27ae33edb1e6b",
+        "signature": "f1baf1c5ac39ccf8d42a2974c6e30e1f62581678bd0f15bef1e27ae33edb1e6b"
+      },
+      "../build/impl/util/findtool.impl.d.ts": {
+        "version": "303fb77164860f60c2eae7d47c78bdb015098f8747656e8ec7e673771d616f73",
+        "signature": "303fb77164860f60c2eae7d47c78bdb015098f8747656e8ec7e673771d616f73"
+      },
+      "../build/impl/util/getoffset.impl.d.ts": {
+        "version": "5a9bd782c29a3802a1bab0264c72f543250b7410bc1f358cdd94f8729d140735",
+        "signature": "5a9bd782c29a3802a1bab0264c72f543250b7410bc1f358cdd94f8729d140735"
+      },
+      "../build/impl/util/lineartrans.impl.d.ts": {
+        "version": "013ef06b2f106cc9cc0f0acb29a7e6137f6b4e1a883d409a678e58ecbbd90d0f",
+        "signature": "013ef06b2f106cc9cc0f0acb29a7e6137f6b4e1a883d409a678e58ecbbd90d0f"
+      }
+    },
+    "options": {
+      "module": 1,
+      "declaration": true,
+      "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "target": 3,
+      "sourceMap": true,
+      "outDir": "./",
+      "baseUrl": "..",
+      "incremental": true,
+      "configFilePath": "../tsconfig.json"
+    },
+    "referencedMap": {
+      "../build/interface/location.i.d.ts": [
+        "../build/enum/xtype.enum.d.ts",
+        "../build/enum/ytype.enum.d.ts"
+      ],
+      "../src/interface/location.i.ts": [
+        "../src/enum/xtype.enum.ts",
+        "../src/enum/ytype.enum.ts"
+      ],
+      "../src/impl/util/conv.impl.ts": [
+        "../src/interface/conv.i.ts"
+      ],
+      "../src/impl/laboratory.impl.ts": [
+        "../src/abstract/component.ts",
+        "../src/interface/outline.i.ts",
+        "../src/interface/jsonpack.i.ts",
+        "../src/interface/canvascontext.i.ts",
+        "../src/impl/util/conv.impl.ts"
+      ],
+      "../src/impl/util/canvasdraw.ts": [
+        "../src/interface/canvascontext.i.ts",
+        "../src/interface/outline.i.ts"
+      ],
+      "../src/impl/part.impl.ts": [
+        "../src/abstract/component.ts",
+        "../src/interface/outline.i.ts",
+        "../src/interface/canvascontext.i.ts",
+        "../src/interface/jsonpack.i.ts",
+        "../src/impl/util/canvasdraw.ts",
+        "../src/index.ts"
+      ],
+      "../src/abstract/widget.ts": [
+        "../src/abstract/component.ts",
+        "../src/interface/outline.i.ts",
+        "../src/index.ts",
+        "../src/impl/util/pipeline.ts"
+      ],
+      "../src/interface/wordprovider.ts": [
+        "../src/interface/numpack.ts"
+      ],
+      "../src/impl/factory/numbernodefactory.ts": [
+        "../src/impl/util/numbernode.ts",
+        "../src/index.ts"
+      ],
+      "../src/impl/util/numbernode.ts": [
+        "../src/interface/wordprovider.ts",
+        "../src/impl/factory/numbernodefactory.ts",
+        "../src/interface/numpack.ts"
+      ],
+      "../src/impl/digitalmeter.impl.ts": [
+        "../src/abstract/widget.ts",
+        "../src/interface/jsonpack.i.ts",
+        "../src/interface/canvascontext.i.ts",
+        "../src/impl/util/canvasdraw.ts",
+        "../src/impl/util/numbernode.ts",
+        "../src/index.ts"
+      ],
+      "../src/impl/dashboard.impl.ts": [
+        "../src/abstract/widget.ts",
+        "../src/interface/jsonpack.i.ts",
+        "../src/interface/canvascontext.i.ts",
+        "../src/impl/util/numbernode.ts"
+      ],
+      "../src/impl/util/vtcrouter.ts": [
+        "../src/interface/wordprovider.ts",
+        "../src/impl/util/pipeline.ts",
+        "../src/interface/numpack.ts"
+      ],
+      "../src/impl/chart.impl.ts": [
+        "../src/abstract/widget.ts",
+        "../src/interface/jsonpack.i.ts",
+        "../src/interface/canvascontext.i.ts",
+        "../src/impl/util/canvasdraw.ts",
+        "../src/impl/util/numbernode.ts",
+        "../src/index.ts",
+        "../src/impl/util/pipeline.ts"
+      ],
+      "../src/impl/digitaldial.lmpl.ts": [
+        "../src/abstract/widget.ts",
+        "../src/interface/jsonpack.i.ts",
+        "../src/interface/canvascontext.i.ts",
+        "../src/impl/util/canvasdraw.ts",
+        "../src/impl/util/numbernode.ts"
+      ],
+      "../src/impl/factory/componentfactory.ts": [
+        "../src/impl/part.impl.ts",
+        "../src/impl/digitalmeter.impl.ts",
+        "../src/impl/chart.impl.ts",
+        "../src/impl/digitaldial.lmpl.ts"
+      ],
+      "../src/index.ts": [
+        "../src/interface/jsonpack.i.ts",
+        "../src/impl/laboratory.impl.ts",
+        "../src/abstract/component.ts",
+        "../src/impl/part.impl.ts",
+        "../src/impl/digitalmeter.impl.ts",
+        "../src/impl/util/list.impl.ts",
+        "../src/interface/canvascontext.i.ts",
+        "../src/impl/dashboard.impl.ts",
+        "../src/impl/util/vtcrouter.ts",
+        "../src/impl/chart.impl.ts",
+        "../src/impl/factory/componentfactory.ts"
+      ],
+      "../src/impl/util/list.impl.ts": [
+        "../src/abstract/component.ts",
+        "../src/impl/laboratory.impl.ts",
+        "../src/index.ts"
+      ],
+      "../src/impl/util/findtool.impl.ts": [
+        "../src/index.ts",
+        "../src/abstract/component.ts"
+      ],
+      "../src/abstract/component.ts": [
+        "../src/interface/outline.i.ts",
+        "../src/interface/location.i.ts",
+        "../src/interface/jsonpack.i.ts",
+        "../src/interface/canvascontext.i.ts",
+        "../src/impl/util/list.impl.ts",
+        "../src/impl/util/findtool.impl.ts",
+        "../src/impl/util/numbernode.ts",
+        "../src/enum/xtype.enum.ts",
+        "../src/enum/ytype.enum.ts"
+      ],
+      "../build/impl/util/list.impl.d.ts": [
+        "../src/abstract/component.ts"
+      ],
+      "../build/interface/wordprovider.d.ts": [
+        "../build/interface/numpack.d.ts"
+      ],
+      "../build/impl/util/numbernode.d.ts": [
+        "../build/interface/wordprovider.d.ts"
+      ],
+      "../build/abstract/component.d.ts": [
+        "../build/interface/outline.i.d.ts",
+        "../build/interface/location.i.d.ts",
+        "../build/interface/jsonpack.i.d.ts",
+        "../build/interface/canvascontext.i.d.ts",
+        "../build/impl/util/list.impl.d.ts",
+        "../build/impl/util/numbernode.d.ts"
+      ],
+      "../build/impl/util/conv.impl.d.ts": [
+        "../build/interface/conv.i.d.ts"
+      ],
+      "../build/impl/laboratory.impl.d.ts": [
+        "../build/abstract/component.d.ts",
+        "../build/interface/outline.i.d.ts",
+        "../build/interface/jsonpack.i.d.ts",
+        "../build/interface/canvascontext.i.d.ts",
+        "../build/impl/util/conv.impl.d.ts"
+      ],
+      "../build/abstract/widget.d.ts": [
+        "../build/abstract/component.d.ts",
+        "../build/interface/outline.i.d.ts",
+        "../build/impl/util/pipeline.d.ts"
+      ],
+      "../build/impl/dashboard.impl.d.ts": [
+        "../build/abstract/widget.d.ts",
+        "../build/interface/jsonpack.i.d.ts",
+        "../build/interface/canvascontext.i.d.ts"
+      ],
+      "../build/impl/util/vtcrouter.d.ts": [
+        "../build/interface/wordprovider.d.ts",
+        "../build/impl/util/pipeline.d.ts",
+        "../build/interface/numpack.d.ts"
+      ],
+      "../build/index.d.ts": [
+        "../build/impl/laboratory.impl.d.ts",
+        "../build/interface/canvascontext.i.d.ts",
+        "../build/impl/dashboard.impl.d.ts",
+        "../build/impl/util/vtcrouter.d.ts"
+      ],
+      "../build/impl/chart.impl.d.ts": [
+        "../build/abstract/widget.d.ts",
+        "../build/interface/jsonpack.i.d.ts",
+        "../build/interface/canvascontext.i.d.ts"
+      ],
+      "../build/impl/digitaldial.lmpl.d.ts": [
+        "../build/abstract/widget.d.ts",
+        "../build/interface/jsonpack.i.d.ts",
+        "../build/interface/canvascontext.i.d.ts"
+      ],
+      "../build/impl/digitalmeter.impl.d.ts": [
+        "../build/abstract/widget.d.ts",
+        "../build/interface/jsonpack.i.d.ts",
+        "../build/interface/canvascontext.i.d.ts"
+      ],
+      "../build/impl/part.impl.d.ts": [
+        "../build/abstract/component.d.ts",
+        "../build/interface/outline.i.d.ts",
+        "../build/interface/canvascontext.i.d.ts",
+        "../build/interface/jsonpack.i.d.ts"
+      ],
+      "../build/impl/factory/componentfactory.d.ts": [
+        "../build/impl/part.impl.d.ts",
+        "../build/impl/digitalmeter.impl.d.ts",
+        "../build/impl/chart.impl.d.ts",
+        "../build/impl/digitaldial.lmpl.d.ts"
+      ],
+      "../build/impl/factory/numbernodefactory.d.ts": [
+        "../build/impl/util/numbernode.d.ts"
+      ],
+      "../build/impl/util/canvasdraw.d.ts": [
+        "../build/interface/canvascontext.i.d.ts",
+        "../build/interface/outline.i.d.ts"
+      ],
+      "../build/impl/util/findtool.impl.d.ts": [
+        "../build/abstract/component.d.ts"
+      ],
+      "../build/impl/util/getoffset.impl.d.ts": [
+        "../build/interface/outline.i.d.ts",
+        "../build/interface/location.i.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../build/interface/location.i.d.ts": [
+        "../build/enum/xtype.enum.d.ts",
+        "../build/enum/ytype.enum.d.ts"
+      ],
+      "../src/interface/location.i.ts": [
+        "../src/enum/xtype.enum.ts",
+        "../src/enum/ytype.enum.ts"
+      ],
+      "../src/impl/util/conv.impl.ts": [
+        "../src/interface/conv.i.ts"
+      ],
+      "../src/impl/laboratory.impl.ts": [
+        "../src/impl/util/conv.impl.ts",
+        "../src/interface/outline.i.ts",
+        "../src/interface/jsonpack.i.ts",
+        "../src/interface/canvascontext.i.ts",
+        "../src/abstract/component.ts"
+      ],
+      "../src/impl/util/canvasdraw.ts": [
+        "../src/interface/canvascontext.i.ts",
+        "../src/interface/outline.i.ts"
+      ],
+      "../src/impl/part.impl.ts": [
+        "../src/interface/outline.i.ts",
+        "../src/interface/canvascontext.i.ts",
+        "../src/abstract/component.ts",
+        "../src/interface/jsonpack.i.ts"
+      ],
+      "../src/abstract/widget.ts": [
+        "../src/interface/outline.i.ts",
+        "../src/impl/util/pipeline.ts",
+        "../src/abstract/component.ts"
+      ],
+      "../src/interface/wordprovider.ts": [
+        "../src/interface/numpack.ts"
+      ],
+      "../src/impl/factory/numbernodefactory.ts": [
+        "../src/impl/util/numbernode.ts"
+      ],
+      "../src/impl/util/numbernode.ts": [
+        "../src/interface/wordprovider.ts"
+      ],
+      "../src/impl/digitalmeter.impl.ts": [
+        "../src/interface/jsonpack.i.ts",
+        "../src/interface/canvascontext.i.ts",
+        "../src/abstract/widget.ts"
+      ],
+      "../src/impl/dashboard.impl.ts": [
+        "../src/interface/jsonpack.i.ts",
+        "../src/interface/canvascontext.i.ts",
+        "../src/abstract/widget.ts"
+      ],
+      "../src/impl/util/vtcrouter.ts": [
+        "../src/impl/util/pipeline.ts",
+        "../src/interface/numpack.ts",
+        "../src/interface/wordprovider.ts"
+      ],
+      "../src/impl/chart.impl.ts": [
+        "../src/interface/jsonpack.i.ts",
+        "../src/interface/canvascontext.i.ts",
+        "../src/abstract/widget.ts"
+      ],
+      "../src/impl/digitaldial.lmpl.ts": [
+        "../src/interface/jsonpack.i.ts",
+        "../src/interface/canvascontext.i.ts",
+        "../src/abstract/widget.ts"
+      ],
+      "../src/impl/factory/componentfactory.ts": [
+        "../src/impl/digitalmeter.impl.ts",
+        "../src/impl/part.impl.ts",
+        "../src/impl/chart.impl.ts",
+        "../src/impl/digitaldial.lmpl.ts"
+      ],
+      "../src/index.ts": [
+        "../src/impl/laboratory.impl.ts",
+        "../src/impl/dashboard.impl.ts",
+        "../src/interface/canvascontext.i.ts",
+        "../src/impl/util/vtcrouter.ts"
+      ],
+      "../src/impl/util/list.impl.ts": [
+        "../src/abstract/component.ts"
+      ],
+      "../src/impl/util/findtool.impl.ts": [
+        "../src/abstract/component.ts"
+      ],
+      "../src/abstract/component.ts": [
+        "../src/interface/outline.i.ts",
+        "../src/interface/location.i.ts",
+        "../src/impl/util/list.impl.ts",
+        "../src/impl/util/numbernode.ts",
+        "../src/interface/jsonpack.i.ts",
+        "../src/interface/canvascontext.i.ts"
+      ],
+      "../build/impl/util/list.impl.d.ts": [
+        "../src/abstract/component.ts"
+      ],
+      "../build/interface/wordprovider.d.ts": [
+        "../build/interface/numpack.d.ts"
+      ],
+      "../build/impl/util/numbernode.d.ts": [
+        "../build/interface/wordprovider.d.ts"
+      ],
+      "../build/abstract/component.d.ts": [
+        "../build/interface/outline.i.d.ts",
+        "../build/interface/location.i.d.ts",
+        "../build/interface/jsonpack.i.d.ts",
+        "../build/interface/canvascontext.i.d.ts",
+        "../build/impl/util/list.impl.d.ts",
+        "../build/impl/util/numbernode.d.ts"
+      ],
+      "../build/impl/util/conv.impl.d.ts": [
+        "../build/interface/conv.i.d.ts"
+      ],
+      "../build/impl/laboratory.impl.d.ts": [
+        "../build/abstract/component.d.ts",
+        "../build/interface/outline.i.d.ts",
+        "../build/interface/jsonpack.i.d.ts",
+        "../build/interface/canvascontext.i.d.ts",
+        "../build/impl/util/conv.impl.d.ts"
+      ],
+      "../build/abstract/widget.d.ts": [
+        "../build/abstract/component.d.ts",
+        "../build/interface/outline.i.d.ts",
+        "../build/impl/util/pipeline.d.ts"
+      ],
+      "../build/impl/dashboard.impl.d.ts": [
+        "../build/abstract/widget.d.ts",
+        "../build/interface/jsonpack.i.d.ts",
+        "../build/interface/canvascontext.i.d.ts"
+      ],
+      "../build/impl/util/vtcrouter.d.ts": [
+        "../build/interface/wordprovider.d.ts",
+        "../build/impl/util/pipeline.d.ts",
+        "../build/interface/numpack.d.ts"
+      ],
+      "../build/index.d.ts": [
+        "../build/impl/laboratory.impl.d.ts",
+        "../build/interface/canvascontext.i.d.ts",
+        "../build/impl/dashboard.impl.d.ts",
+        "../build/impl/util/vtcrouter.d.ts"
+      ],
+      "../build/impl/chart.impl.d.ts": [
+        "../build/abstract/widget.d.ts",
+        "../build/interface/jsonpack.i.d.ts",
+        "../build/interface/canvascontext.i.d.ts"
+      ],
+      "../build/impl/digitaldial.lmpl.d.ts": [
+        "../build/abstract/widget.d.ts",
+        "../build/interface/jsonpack.i.d.ts",
+        "../build/interface/canvascontext.i.d.ts"
+      ],
+      "../build/impl/digitalmeter.impl.d.ts": [
+        "../build/abstract/widget.d.ts",
+        "../build/interface/jsonpack.i.d.ts",
+        "../build/interface/canvascontext.i.d.ts"
+      ],
+      "../build/impl/part.impl.d.ts": [
+        "../build/abstract/component.d.ts",
+        "../build/interface/outline.i.d.ts",
+        "../build/interface/canvascontext.i.d.ts",
+        "../build/interface/jsonpack.i.d.ts"
+      ],
+      "../build/impl/factory/componentfactory.d.ts": [
+        "../build/impl/part.impl.d.ts",
+        "../build/impl/digitalmeter.impl.d.ts",
+        "../build/impl/chart.impl.d.ts",
+        "../build/impl/digitaldial.lmpl.d.ts"
+      ],
+      "../build/impl/factory/numbernodefactory.d.ts": [
+        "../build/impl/util/numbernode.d.ts"
+      ],
+      "../build/impl/util/canvasdraw.d.ts": [
+        "../build/interface/canvascontext.i.d.ts",
+        "../build/interface/outline.i.d.ts"
+      ],
+      "../build/impl/util/findtool.impl.d.ts": [
+        "../build/abstract/component.d.ts"
+      ],
+      "../build/impl/util/getoffset.impl.d.ts": [
+        "../build/interface/outline.i.d.ts",
+        "../build/interface/location.i.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es5.d.ts",
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2015.d.ts",
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2016.d.ts",
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.dom.d.ts",
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.scripthost.d.ts",
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../../../../../../nvm/v8.12.0/node_modules/typescript/lib/lib.es2016.full.d.ts",
+      "../build/interface/outline.i.d.ts",
+      "../build/enum/xtype.enum.d.ts",
+      "../build/enum/ytype.enum.d.ts",
+      "../build/interface/location.i.d.ts",
+      "../build/interface/jsonpack.i.d.ts",
+      "../build/interface/canvascontext.i.d.ts",
+      "../src/interface/outline.i.ts",
+      "../src/enum/xtype.enum.ts",
+      "../src/enum/ytype.enum.ts",
+      "../src/interface/location.i.ts",
+      "../src/interface/jsonpack.i.ts",
+      "../src/interface/canvascontext.i.ts",
+      "../src/interface/conv.i.ts",
+      "../src/impl/util/conv.impl.ts",
+      "../src/impl/laboratory.impl.ts",
+      "../src/impl/util/canvasdraw.ts",
+      "../src/impl/part.impl.ts",
+      "../src/impl/util/pipeline.ts",
+      "../src/abstract/widget.ts",
+      "../src/interface/numpack.ts",
+      "../src/interface/wordprovider.ts",
+      "../src/impl/factory/numbernodefactory.ts",
+      "../src/impl/util/numbernode.ts",
+      "../src/impl/dashboard.impl.ts",
+      "../src/impl/util/vtcrouter.ts",
+      "../src/impl/chart.impl.ts",
+      "../src/impl/digitaldial.lmpl.ts",
+      "../src/impl/factory/componentfactory.ts",
+      "../src/index.ts",
+      "../src/impl/util/list.impl.ts",
+      "../src/impl/util/findtool.impl.ts",
+      "../src/abstract/component.ts",
+      "../build/impl/util/list.impl.d.ts",
+      "../build/interface/numpack.d.ts",
+      "../build/interface/wordprovider.d.ts",
+      "../build/impl/util/numbernode.d.ts",
+      "../build/abstract/component.d.ts",
+      "../build/interface/conv.i.d.ts",
+      "../build/impl/util/conv.impl.d.ts",
+      "../build/impl/laboratory.impl.d.ts",
+      "../build/impl/util/pipeline.d.ts",
+      "../build/abstract/widget.d.ts",
+      "../build/impl/dashboard.impl.d.ts",
+      "../build/impl/util/vtcrouter.d.ts",
+      "../build/index.d.ts",
+      "../build/impl/chart.impl.d.ts",
+      "../build/impl/digitaldial.lmpl.d.ts",
+      "../build/impl/digitalmeter.impl.d.ts",
+      "../build/impl/part.impl.d.ts",
+      "../build/impl/factory/componentfactory.d.ts",
+      "../build/impl/factory/numbernodefactory.d.ts",
+      "../build/impl/util/canvasdraw.d.ts",
+      "../build/impl/util/findtool.impl.d.ts",
+      "../build/impl/util/getoffset.impl.d.ts",
+      "../build/impl/util/lineartrans.impl.d.ts",
+      "../src/impl/digitalmeter.impl.ts"
+    ]
+  },
+  "version": "3.8.2"
+}
